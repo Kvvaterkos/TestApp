@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Department</title>
+    <link rel="shortcut icon" href="">
+    <style>
+        /*input[type='submit'], button, [aria-label] {
+            cursor: pointer;
+        }
+
+        #spoiler {
+            display: none;
+        }
+
+        table {
+            font-family: Arial, sans-serif;
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #0066CC;
+            color: white;
+        }
+
+        td {
+            border: 1px solid;
+            padding: 5px;
+        }*/
+    </style>
+</head>
+<body>
+    <div>
+        <button type="button" v-on:click="show">Change</button>
+        <div v-if="this.state">
+            <div id="employee">
+                <h2>Employees</h2>
+                <div>
+                    <p v-for="(employee, index) in employees">
+                        {{employee.name}} - {{employee.age}}
+                        <button type="button" class="danger" ref="EnterButton" v-on:click="editEmployee(employee, index)">Edit</button>
+                        <button type="button" class="danger" ref="RemoveButton" v-on:click="deleteEmployeeId(employee.id, index)">Remove</button>
+                    </p>
+                </div>
+                <div>
+                    <input type="text" v-model="employeeModel.name" />
+                    <input type="number" v-model.number="employeeModel.age" />
+                    <button type="button" class="success" ref="SaveButton" v-bind:disabled="isSubmitDisabled" v-on:click="createEmployee" v-if="!employeeModel.id">Create Employee</button>
+                    <button type="button" class="success" ref="UpdateButton" v-bind:disabled="isSubmitDisabled" v-on:click="updateEmployee(employee.id)" v-else>Update Employee</button>
+                    <button type="button" class="danger" v-on:click="resetForm">Reset Form</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div v-else>
+        <div id="meeting">
+            <h2>Meetings</h2>
+            <div>
+                <p v-for="(meeting, index) in meetings">
+                    {{meeting.name}} - {{meeting.employeesId}}
+                    <button type="button" class="danger" ref="EnterButton" v-on:click="editMeeting(meeting, index)">Edit</button>
+                    <button type="button" class="danger" ref="RemoveButton" v-on:click="deleteMeetingId(meeting.id, index)">Remove</button>
+                </p>
+            </div>
+            <div>
+                <input type="text" v-model="meetingModel.name" />
+                <input type="text" v-model.number="meetingModel.employeesId" />
+                <button type="button" class="success" ref="SaveButton" v-bind:disabled="isSubmitDisabled" v-on:click="createMeeting" v-if="!meetingModel.id">Create Meeting</button>
+                <button type="button" class="success" ref="UpdateButton" v-bind:disabled="isSubmitDisabled" v-on:click="updateMeeting(meeting.id)" v-else>Update Meeting</button>
+                <button type="button" class="danger" v-on:click="resetForm">Reset Form</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/additional.js"></script>
+    <script src="./js/employee.js"></script>
+    <script src="./js/meeting.js"></script>
+
+</body>
+</html>

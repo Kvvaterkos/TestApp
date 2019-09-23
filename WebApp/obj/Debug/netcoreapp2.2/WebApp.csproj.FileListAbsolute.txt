@@ -1,0 +1,14 @@
+C:\Users\Kvate\source\repos\WebApp\WebApp\bin\Debug\netcoreapp2.2\WebApp.deps.json
+C:\Users\Kvate\source\repos\WebApp\WebApp\bin\Debug\netcoreapp2.2\WebApp.runtimeconfig.json
+C:\Users\Kvate\source\repos\WebApp\WebApp\bin\Debug\netcoreapp2.2\WebApp.runtimeconfig.dev.json
+C:\Users\Kvate\source\repos\WebApp\WebApp\bin\Debug\netcoreapp2.2\WebApp.dll
+C:\Users\Kvate\source\repos\WebApp\WebApp\obj\Debug\netcoreapp2.2\WebApp.csprojAssemblyReference.cache
+C:\Users\Kvate\source\repos\WebApp\WebApp\obj\Debug\netcoreapp2.2\WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Kvate\source\repos\WebApp\WebApp\obj\Debug\netcoreapp2.2\WebApp.RazorAssemblyInfo.cache
+C:\Users\Kvate\source\repos\WebApp\WebApp\obj\Debug\netcoreapp2.2\WebApp.RazorAssemblyInfo.cs
+C:\Users\Kvate\source\repos\WebApp\WebApp\obj\Debug\netcoreapp2.2\WebApp.AssemblyInfoInputs.cache
+C:\Users\Kvate\source\repos\WebApp\WebApp\obj\Debug\netcoreapp2.2\WebApp.AssemblyInfo.cs
+C:\Users\Kvate\source\repos\WebApp\WebApp\obj\Debug\netcoreapp2.2\WebApp.RazorTargetAssemblyInfo.cache
+C:\Users\Kvate\source\repos\WebApp\WebApp\bin\Debug\netcoreapp2.2\WebApp.pdb
+C:\Users\Kvate\source\repos\WebApp\WebApp\obj\Debug\netcoreapp2.2\WebApp.dll
+C:\Users\Kvate\source\repos\WebApp\WebApp\obj\Debug\netcoreapp2.2\WebApp.pdb
